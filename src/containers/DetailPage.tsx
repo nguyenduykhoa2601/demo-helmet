@@ -7,8 +7,6 @@ export default function DetailPage() {
 	const [item, setItem] = useState<any>({});
 	const param = useParams();
 
-	console.log(param?.id);
-
 	useEffect(() => {
 		const getApi = async () => {
 			try {
